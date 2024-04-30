@@ -1,4 +1,8 @@
+一个简单的http服务器, 使用json方式可以与其通信, 调用poco库.
+
 # 编译-运行-测试
+
+环境配置(ubuntu): apt update && apt install libpoco-dev cmake g++
 
 编译: cmake . && make
 
